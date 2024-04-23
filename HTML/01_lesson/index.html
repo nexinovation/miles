@@ -1,118 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <!-- the meta data i added -->
-        <meta charset="UTF-8">
-        <meta name="author" content="Miles">
-        <meta name="description" content="This page contains all the things i am learning how to create as i learn HTML. ">
-        <title>My first webpage</title>
-        <!-- a link to a icon i added called favicon -->
-        <link rel="icon" href="linkedin.png" type="image/x-icon">
-        <!-- linked my css file useing the link function to the html which is called a relate refrence -->
-        <link rel="stylesheet" href="main.css">
-    </head>
+<head>
+    <!-- the meta data i added -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Miles">
+    <meta name="description" content="This page contains all the things i am learning how to create as i learn HTML. ">
+    <title>My first webpage</title>
+    <!-- a link to a icon i added called favicon -->
+    <link rel="icon" href="linkedin.png" type="image/x-icon">
+    <!-- linked my css file useing the link function to the html which is called a relate refrence -->
+    <link rel="stylesheet" href="main.css">
+</head>
 
-    <body>
-        <!-- The text heirachey -->
-        <header>
-            <h1>My Goals For The Year</h1>
+<body>
+    <!-- The text heirachey -->
+    <header>
+        <h1>My Goals For The Year</h1>
 
-    <!-- a semtice elements html  -->
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#html">Learning HTML</a>
-                    </li>
-                    <li>
-                        <a href="#vacation">Planning a Vacation</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>   
+        <!-- a semtice elements html  -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="#html">Learning HTML</a>
+                </li>
+                <li>
+                    <a href="#vacation">Planning a Vacation</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-        <!-- horizonal line -->
-        <hr>
+    <!-- horizonal line -->
+    <hr>
 
-        <!-- created an internal link with the section -->
-    <section id="html">
-        <h2>I am ready to learn HTML</h2>
-        <p>This is my first Webpage.</p>
-        <!-- added a img with the img function -->
-        <img src="img/html_logo_300x300.png" alt="HTML5 LOGO" title="I am learning HTML5" width="300" height="300">
-        <figure>
-            <figcaption>An example of HtMl 5 code</figcaption>
-            <p>
-                <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
-            </p>
-        </figure>
-        <!-- h3 should be the last you have per page -->
-        <h3>My Daily Schedule</h3>
-        <p>Let me show you how:</p>
-        <!-- am ordered list -->
-        <ol>
-            <li>I learn more about web dev.</li>
-            <li> I plan out my scheadule.</li>
-            <!-- added an abbrivation -->
-            <li> I use resources from <abbr title="Mozilla developer Network"><a href="https://developer.mozilla.org">MDN</a></abbr>.</li>
-            <!-- added a link to a site which is called an absolute refrence it has a full address of the page -->
-        </ol>
-    </section> 
 
-        <hr>
-        
-    <section id="vacation">
-        <h2>I am also planing a vacation</h2>
-        <!-- added am actribute called emphazeize <em> -->
-        <p>I've been working hard and <em>really need a getaway</em>.</p>
-        <p>I live in <abbr title="Kansas">KS</abbr> so i want to visit a beach.</p>
-
-        <h3>Places i'd like to Visit</h3>
-        <!-- an unorded list -->
-        <ul>
-        <li>
-            <p>I've heard good things about Caribbean.</p>
+    <!-- created an internal link with the section -->
+    <main>
+        <!-- you can only have one main elemen per page -->
+        <section id="html">
+            <h2>I am ready to learn HTML</h2>
+            <p>This is my first Webpage.</p>
+            <!-- added a img with the img function -->
+            <img src="img/html_logo_300x300.png" alt="HTML5 LOGO" title="I am learning HTML5" width="300" height="300">
             <figure>
-                <img src="img/caribbean.jpg" alt="caribbean beach" title="I want to visit a caribbean beach" width="400" height="225" loading="lazy">
-                <figcaption>
-                    Caribbean Beach Getaway 
-                </figcaption>
+                <figcaption>An example of HtMl 5 code</figcaption>
+                <p>
+                    <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+                </p>
             </figure>
-        </li>
-        <li>
-            <p>I've heard good things about here: </p>
-        <!-- an address element -->
-            <address>
-                 Margaritaville Island reserve Riviera Cancun<br>
-                 Bahia Petempich Puerto Morelos, Mexico<br>
-                Colonia Morelos, Mexico 77580
-            </address>
-            <figure>
-                <img src="img/vacation.jpg" alt="cancun vacation" title="its 5 o'clock Somewhere!" loading="lazy" width="400" height="267">
-                <figcaption>
-                    Caribbean vacation image
-                </figcaption>
-            </figure>
-        </li>
-        </ul>
-        <h3>Place I Want To Avoid</h3>
-        <!-- description list inside the dl we have the dt (description term) and the dd(description detail)  -->
-        <dl>
-            <dt>North Pole</dt>
-            <dd>I hear this is <strong>Cold</strong></dd>
-
-            <dt>South Pole</dt>
-            <dd>This is also Cold.</dd>
-
-            <dt>Montain tops</dt>
-            <dd>These are also Cold.</dd>
-        </dl>
-    </section>
+            <!-- h3 should be the last you have per page -->
+            <h3>My Daily Schedule</h3>
+            <p>Let me show you how:</p>
+            <!-- am ordered list -->
+            <ol>
+                <li>I learn more about web dev.</li>
+                <li> I plan out my scheadule.</li>
+                <!-- added an abbrivation -->
+                <li> I use resources from <abbr title="Mozilla developer Network"><a
+                            href="https://developer.mozilla.org">MDN</a></abbr>.</li>
+                <!-- added a link to a site which is called an absolute refrence it has a full address of the page -->
+            </ol>
+        </section>
 
         <hr>
-        &lt;&lt;&lt; &copy; <a href="about.html">Miles</a> &gt;&gt;&gt;
+
+        <section id="vacation">
+            <h2>I am also planing a vacation</h2>
+            <!-- added am actribute called emphazeize <em> -->
+            <p>I've been working hard and <em>really need a getaway</em>.</p>
+            <p>I live in <abbr title="Kansas">KS</abbr> so i want to visit a beach.</p>
+
+            <h3>Places i'd like to Visit</h3>
+            <!-- an unorded list -->
+            <ul>
+                <li>
+                    <p>I've heard good things about Caribbean.</p>
+                    <figure>
+                        <img src="img/caribbean.jpg" alt="caribbean beach" title="I want to visit a caribbean beach"
+                            width="400" height="225" loading="lazy">
+                        <figcaption>
+                            Caribbean Beach Getaway
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <p>I've heard good things about here: </p>
+                    <!-- an address element -->
+                    <address>
+                        Margaritaville Island reserve Riviera Cancun<br>
+                        Bahia Petempich Puerto Morelos, Mexico<br>
+                        Colonia Morelos, Mexico 77580
+                    </address>
+                    <figure>
+                        <img src="img/vacation.jpg" alt="cancun vacation" title="its 5 o'clock Somewhere!"
+                            loading="lazy" width="400" height="267">
+                        <figcaption>
+                            Caribbean vacation image
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+            <h3>Place I Want To Avoid</h3>
+            <!-- description list inside the dl we have the dt (description term) and the dd(description detail)  -->
+            <dl>
+                <dt>North Pole</dt>
+                <dd>I hear this is <strong>Cold</strong></dd>
+
+                <dt>South Pole</dt>
+                <dd>This is also Cold.</dd>
+
+                <dt>Montain tops</dt>
+                <dd>These are also Cold.</dd>
+            </dl>
+        </section>
+    </main>
+    <!-- A footer -->
+    <footer>
+        <p>
+            &lt;&lt;&lt; &copy; <a href="about.html">Miles</a> &gt;&gt;&gt;
+        </p>
         <p>
             <a href="#">Back to Top</a>
         </p>
-    </body> 
+    </footer>
+</body>
+
 </html>
