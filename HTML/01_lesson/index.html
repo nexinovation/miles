@@ -38,82 +38,98 @@
     <!-- created an internal link with the section -->
     <main>
         <!-- you can only have one main elemen per page -->
-        <section id="html">
+        <article id="html">
             <h2>I am ready to learn HTML</h2>
             <p>This is my first Webpage.</p>
             <!-- added a img with the img function -->
-            <img src="img/html_logo_300x300.png" alt="HTML5 LOGO" title="I am learning HTML5" width="300" height="300">
-            <figure>
-                <figcaption>An example of HtMl 5 code</figcaption>
-                <p>
-                    <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
-                </p>
-            </figure>
+            <section>
+                <h3>HTML5</h3>
+                <img src="img/html_logo_300x300.png" alt="HTML5 LOGO" title="I am learning HTML5" width="300"
+                    height="300">
+                <figure>
+                    <figcaption>An example of HtMl 5 code</figcaption>
+                    <p>
+                        <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+                    </p>
+                </figure>
+            </section>
             <!-- h3 should be the last you have per page -->
-            <h3>My Daily Schedule</h3>
-            <p>Let me show you how:</p>
-            <!-- am ordered list -->
-            <ol>
-                <li>I learn more about web dev.</li>
-                <li> I plan out my scheadule.</li>
-                <!-- added an abbrivation -->
-                <li> I use resources from <abbr title="Mozilla developer Network"><a
-                            href="https://developer.mozilla.org">MDN</a></abbr>.</li>
-                <!-- added a link to a site which is called an absolute refrence it has a full address of the page -->
-            </ol>
-        </section>
+            <section>
+                <h3>My Daily Schedule</h3>
+                <p>Let me show you how:</p>
+                <!-- am ordered list -->
+                <ol>
+                    <li>I learn more about web dev.</li>
+                    <li> I plan out my scheadule.</li>
+                    <!-- added an abbrivation -->
+                    <li> I use resources from <abbr title="Mozilla developer Network"><a
+                                href="https://developer.mozilla.org">MDN</a></abbr>.</li>
+                    <!-- added a link to a site which is called an absolute refrence it has a full address of the page -->
+                </ol>
+                <aside>
+                    <details>
+                        <summary>Guess the number of hours i code today</summary>
+                        <p>I start at 8am and i write code for 3 hours every morning</p>
+                    </details>
+                </aside>
+            </section>
+        </article>
 
         <hr>
 
-        <section id="vacation">
+        <article id="vacation">
             <h2>I am also planing a vacation</h2>
             <!-- added am actribute called emphazeize <em> -->
             <p>I've been working hard and <em>really need a getaway</em>.</p>
             <p>I live in <abbr title="Kansas">KS</abbr> so i want to visit a beach.</p>
+            <section>
+                <h3>Places i'd like to Visit</h3>
+                <!-- an unorded list -->
+                <ul>
+                    <li>
+                        <p>I've heard good things about Caribbean.</p>
+                        <figure>
+                            <img src="img/caribbean.jpg" alt="caribbean beach" title="I want to visit a caribbean beach"
+                                width="400" height="225" loading="lazy">
+                            <figcaption>
+                                Caribbean Beach Getaway
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <p>I've heard good things about here: </p>
+                        <!-- an address element -->
+                        <address>
+                            Margaritaville Island reserve Riviera Cancun<br>
+                            Bahia Petempich Puerto Morelos, Mexico<br>
+                            Colonia Morelos, Mexico 77580
+                        </address>
+                        <figure>
+                            <img src="img/vacation.jpg" alt="cancun vacation" title="its 5 o'clock Somewhere!"
+                                loading="lazy" width="400" height="267">
+                            <figcaption>
+                                Caribbean vacation image
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>
 
-            <h3>Places i'd like to Visit</h3>
-            <!-- an unorded list -->
-            <ul>
-                <li>
-                    <p>I've heard good things about Caribbean.</p>
-                    <figure>
-                        <img src="img/caribbean.jpg" alt="caribbean beach" title="I want to visit a caribbean beach"
-                            width="400" height="225" loading="lazy">
-                        <figcaption>
-                            Caribbean Beach Getaway
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <p>I've heard good things about here: </p>
-                    <!-- an address element -->
-                    <address>
-                        Margaritaville Island reserve Riviera Cancun<br>
-                        Bahia Petempich Puerto Morelos, Mexico<br>
-                        Colonia Morelos, Mexico 77580
-                    </address>
-                    <figure>
-                        <img src="img/vacation.jpg" alt="cancun vacation" title="its 5 o'clock Somewhere!"
-                            loading="lazy" width="400" height="267">
-                        <figcaption>
-                            Caribbean vacation image
-                        </figcaption>
-                    </figure>
-                </li>
-            </ul>
-            <h3>Place I Want To Avoid</h3>
-            <!-- description list inside the dl we have the dt (description term) and the dd(description detail)  -->
-            <dl>
-                <dt>North Pole</dt>
-                <dd>I hear this is <strong>Cold</strong></dd>
+            <section>
+                <h3>Place I Want To Avoid</h3>
+                <!-- description list inside the dl we have the dt (description term) and the dd(description detail)  -->
+                <dl>
+                    <dt>North Pole</dt>
+                    <dd>I hear this is <strong>Cold</strong></dd>
 
-                <dt>South Pole</dt>
-                <dd>This is also Cold.</dd>
+                    <dt>South Pole</dt>
+                    <dd>This is also Cold.</dd>
 
-                <dt>Montain tops</dt>
-                <dd>These are also Cold.</dd>
-            </dl>
-        </section>
+                    <dt>Montain tops</dt>
+                    <dd>These are also Cold.</dd>
+                </dl>
+            </section>2
+        </article>
     </main>
     <!-- A footer -->
     <footer>
