@@ -1,6 +1,12 @@
+/* element selector */
 body {
     font-size: 22px;
 }
 p {
     color: purple;
+}
+
+/* class selector */
+.gray {
+    color: gray;
 }
