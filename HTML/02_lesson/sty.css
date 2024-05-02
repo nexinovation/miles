@@ -1,39 +1,59 @@
 /* the universal selector */
 * {
     font-family: monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* element selector the inheritance help  */
 body {
     font-size: 22px;
     line-height: 1.5;
-    background-color: black;
+    background-color: #ffefd5;
 }
 
-/* another type of elrement selector  */
+/* another type of elrement selector
 main {
 
-}
+} */
 
-h1, h2, h3 {
-    color: blue;
-}
 
 p {
-    color: purple;
+    color: #333;
+    /* csss unit the absolute length unit we use here is pixels */
+    font-size: 2rem;
+    width: 40ch;
 }
-/* selecting an element in an element   */
+
+h1 {
+    border: 2px solid red;
+    width: 50%;
+    font-size: 3rem;
+    padding: 0.5em;
+}
+
+
+
+
+
+
+
+
+
+
+/* selecting an element in an element
 .highlight {
     text-transform: uppercase;
     background-color: gold ;
 }
 
 /* class selector they are more specific than the element selector */
-.gray {
+/* .gray {
     color: gray;
-}
+} */
 
 /* id attribute  its not advicable to use id selection in the css file*/
-#second {
+/* #second {
     font-style: italic;
-}
+} */ */
