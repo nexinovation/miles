@@ -1,12 +1,39 @@
-/* element selector */
+/* the universal selector */
+* {
+    font-family: monospace;
+}
+
+/* element selector the inheritance help  */
 body {
     font-size: 22px;
+    line-height: 1.5;
+    background-color: black;
 }
+
+/* another type of elrement selector  */
+main {
+
+}
+
+h1, h2, h3 {
+    color: blue;
+}
+
 p {
     color: purple;
 }
+/* selecting an element in an element   */
+.highlight {
+    text-transform: uppercase;
+    background-color: gold ;
+}
 
-/* class selector */
+/* class selector they are more specific than the element selector */
 .gray {
     color: gray;
+}
+
+/* id attribute  its not advicable to use id selection in the css file*/
+#second {
+    font-style: italic;
 }
