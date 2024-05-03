@@ -5,7 +5,7 @@
 
 /* element selector the inheritance help  */
 body {
-    font-size: 22px;
+    /* font-size: 22px; */
     line-height: 1.5;
     background-color: #ffefd5;
 }
@@ -19,14 +19,14 @@ body {
 p {
     color: #333;
     /* csss unit the absolute length unit we use here is pixels */
-    font-size: 2rem;
-    width: 40ch;
+    /* font-size: 2rem; */
+    /* width: 40ch; */
 }
 
 h1 {
     border: 2px solid red;
     width: 50%;
-    font-size: 3rem;
+    /* font-size: 3rem; */
     padding: 0.5em;
 }
 
